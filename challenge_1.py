@@ -1,5 +1,4 @@
-## Challenge 1
+# Challenge 1
 
-print("Why did the chicken cross the road?")
-print("===================================")
-print("To get to the other side")
+enter=input("Why did the chicken cross the road?")
+print("To get to the other side...")
