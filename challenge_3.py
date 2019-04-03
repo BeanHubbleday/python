@@ -7,9 +7,9 @@ if option == "Area"or"area"or"AREA":
     area=width*length
     print("The area of your rectangle is:",area)
 elif option == "Volume"or"volume"or"VOLUME":
-    width=int(input("Enter the width of your rectangle: "))
-    length=int(input("Enter the length of your rectangle: "))
-    height=int(input("Enter the height of your rectangle: "))
+    width=int(input("Enter the width of your cuboid: "))
+    length=int(input("Enter the length of your cuboid: "))
+    height=int(input("Enter the height of your cuboid: "))
     volume=width*length*height
     print("The volume of your cuboid is:",volume)
 else:
