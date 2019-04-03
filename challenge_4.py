@@ -7,3 +7,11 @@ if option == "Speed"or"speed"or"SPEED":
     conversion=0.0166667*time
     speed=distance/conversion
     print("You'll need to do",speed,"mph!")
+elif option == "Distance"or"distance"or"DISTANCE":
+    currentSpeed = int(input("What speed are you currently travelling at? Enter it here: "))
+    currentDriveTime = int(input("How long have you been driving for, in minutes? Enter it here: "))
+    conversion=0.0166667*currentDriveTime
+    distance=currentSpeed*currentDriveTime
+    print("You've driven",distance,"miles!")
+else:
+    print("Incorrect input, program ending!")
